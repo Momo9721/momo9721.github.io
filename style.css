@@ -1,0 +1,75 @@
+header {
+    text-align: center;
+    border: 4px solid aliceblue;
+    margin: 30px;
+    padding: 2px;
+        margin-left: 500px;
+        margin-right: 500px;
+    border-radius: 45px;
+    color: firebrick;
+    text-shadow: 3px 2px lightgray;
+    
+}
+
+body {
+    background-image: url("Images/Background.jpg");
+    background-size: cover;
+    background-position-x: center;
+    font-family: 'Indie Flower', cursive;
+}
+ul {
+    list-style-type: none;
+    text-align:center;
+    padding: 12px;
+    border: 1px solid aliceblue;
+    background-color: aliceblue;
+    border-radius: 45px;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+    padding: 8px;
+    color: firebrick;
+    border: 4px solid aliceblue;
+    padding: 2px;
+        margin-left: 500px;
+        margin-right: 500px;
+    border-radius: 45px;
+}
+
+.menù {
+    display: inline;
+    text-align: center;
+    padding: 140px;
+    position: sticky;
+}
+.menù:hover{
+    font-weight: bolder;
+}
+a {
+    text-decoration: none;
+    color: firebrick;
+}
+
+.box {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+article {
+    height: 270px;
+}
+
+.box:hover {
+    background-color: aliceblue;
+}
+
+.piatti:hover {
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    color: gray;
+}
